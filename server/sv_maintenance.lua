@@ -43,7 +43,7 @@ local function GetPlayerLicense(id)
 end
 
 function Maintenance:Print(text)
-    print("^3Fivem-maintenance:^7 ^4["..os.date('%c').."]^7 "..text)
+    print("^3cr-maintenance:^7 ^4["..os.date('%c').."]^7 "..text)
 end
 
 AddEventHandler("playerConnecting", function(playerName, setKickReason, deferrals)
